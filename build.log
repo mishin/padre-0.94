@@ -1,0 +1,782 @@
+cpanm (App::cpanminus) 1.7039 on perl 5.020000 built for MSWin32-x86-multi-thread-64int
+Work directory is C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data/.cpanm/work/1445651947.2512
+You have make C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\bin\dmake.exe
+You have LWP 6.06
+Falling back to Archive::Tar 1.96
+--> Working on C:\Users\TOSH\Documents\Padre-0.94.tar.gz
+Fetching file://C:/Users/TOSH/Documents/Padre-0.94.tar.gz
+-> OK
+Unpacking Padre-0.94.tar.gz
+Entering Padre-0.94
+Checking configure dependencies from META.yml
+Checking if you have Alien::wxWidgets 0.46 ... Yes (0.67)
+Checking if you have ExtUtils::MakeMaker 6.62 ... Yes (7.10)
+Configuring Padre-0.94
+Running Makefile.PL
+Found locale    Russian_Russia.1251
+Building padre.exe
+Found wxWidgets 3..2
+Found Wx.pm     0.9927
+Checking if your kit is complete...
+Looks good
+Warning: prerequisite Format::Human::Bytes 0.06 not found.
+Generating a dmake-style Makefile
+Writing Makefile for Padre::Util::Win32
+Writing MYMETA.yml and MYMETA.json
+Generating a dmake-style Makefile
+Writing Makefile for Padre
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have File::Spec::Functions 3.2701 ... Yes (3.47)
+Checking if you have App::cpanminus 0.9923 ... Yes (1.7039)
+Checking if you have Text::Patch 1.8 ... Yes (1.8)
+Checking if you have Test::NoWarnings 0.084 ... Yes (1.04)
+Checking if you have Class::Inspector 1.22 ... Yes (1.28)
+Checking if you have HTML::Entities 3.57 ... Yes (3.69)
+Checking if you have Text::Diff 1.41 ... Yes (1.41)
+Checking if you have IPC::Open3 0 ... Yes (1.16)
+Checking if you have Module::Manifest 0.07 ... Yes (1.08)
+Checking if you have Wx::Scintilla 0.34 ... Yes (0.39)
+Checking if you have Getopt::Long 0 ... Yes (2.42)
+Checking if you have Params::Util 0.33 ... Yes (1.07)
+Checking if you have Time::HiRes 1.9718 ... Yes (1.9726)
+Checking if you have Debug::Client 0.16 ... Yes (0.29)
+Checking if you have Format::Human::Bytes 0.06 ... No
+Checking if you have POD2::Base 0.043 ... Yes (0.043)
+Checking if you have IO::Socket 1.30 ... Yes (1.37)
+Checking if you have B::Deparse 0 ... Yes (1.26)
+Checking if you have List::Util 1.18 ... Yes (1.42)
+Checking if you have File::Glob 0 ... Yes (1.23)
+Checking if you have Win32::TieRegistry 0.26 ... Yes (0.26)
+Checking if you have IPC::Run 0.83 ... Yes (0.94)
+Checking if you have DBD::SQLite 1.35 ... Yes (1.42)
+Checking if you have Parse::ExuberantCTags 1.00 ... Yes (1.02)
+Checking if you have Data::Dumper 2.101 ... Yes (2.151)
+Checking if you have ORLite 1.51 ... Yes (1.98)
+Checking if you have Storable 2.16 ... Yes (2.49)
+Checking if you have Pod::Perldoc 3.15 ... Yes (3.23)
+Checking if you have File::Path 2.08 ... Yes (2.09)
+Checking if you have Text::Balanced 2.01 ... Yes (2.02)
+Checking if you have Pod::Functions 0 ... Yes (1.08)
+Checking if you have File::Find::Rule 0.30 ... Yes (0.33)
+Checking if you have ORLite::Migrate 1.08 ... Yes (1.10)
+Checking if you have threads::shared 1.33 ... Yes (1.46)
+Checking if you have IO::String 1.08 ... Yes (1.08)
+Checking if you have LWP 5.815 ... Yes (6.06)
+Checking if you have Probe::Perl 0.01 ... Yes (0.03)
+Checking if you have File::Basename 0 ... Yes (2.85)
+Checking if you have Pod::Simple 3.07 ... Yes (3.28)
+Checking if you have Pod::Abstract 0.16 ... Yes (0.20)
+Checking if you have File::Which 1.08 ... Yes (1.09)
+Checking if you have File::ShareDir 1.00 ... Yes (1.102)
+Checking if you have FindBin 0 ... Yes (1.51)
+Checking if you have List::MoreUtils 0.22 ... Yes (0.413)
+Checking if you have threads 1.71 ... Yes (1.93)
+Checking if you have CGI 3.47 ... Yes (4.21)
+Checking if you have Class::XSAccessor 1.13 ... Yes (1.19)
+Checking if you have File::pushd 1.00 ... Yes (1.006)
+Checking if you have Pod::POM 0.17 ... Yes (2.00)
+Checking if you have Wx 0.9901 ... Yes (0.9927)
+Checking if you have Test::Exception 0.27 ... Yes (0.32)
+Checking if you have Module::Build 0.3603 ... Yes (0.4205)
+Checking if you have Locale::Msgfmt 0.15 ... Yes (0.15)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (7.10)
+Checking if you have Wx::Perl::ProcessStream 0.29 ... Yes (0.32)
+Checking if you have JSON::XS 2.29 ... Yes (3.01)
+Checking if you have YAML::Tiny 1.32 ... Yes (1.62)
+Checking if you have Win32 0.31 ... Yes (0.49)
+Checking if you have POSIX 0 ... Yes (1.38_03)
+Checking if you have Sort::Versions 1.5 ... Yes (1.5)
+Checking if you have HTML::Parser 3.58 ... Yes (3.71)
+Checking if you have File::Glob::Windows v0.1.3 ... Yes (0.1.5)
+Checking if you have Devel::Refactor 0.05 ... Yes (0.05)
+Checking if you have Algorithm::Diff 1.19 ... Yes (1.1902)
+Checking if you have PPI 1.213 ... Yes (1.220)
+Checking if you have PPIx::EditorTools 0.13 ... Yes (0.19)
+Checking if you have Devel::Dumpvar 0.04 ... Yes (1.06)
+Checking if you have Capture::Tiny 0.06 ... Yes (0.30)
+Checking if you have Test::More 0.88 ... Yes (1.001014)
+Checking if you have Win32::Shortcut 0.07 ... Yes (0.08)
+Checking if you have Cwd 3.2701 ... Yes (3.47)
+Checking if you have IO::Scalar 2.110 ... Yes (2.111)
+Checking if you have File::HomeDir 0.98 ... Yes (1.00)
+Checking if you have Test::MockObject 1.09 ... Yes (1.20150527)
+Checking if you have PPIx::Regexp 0.011 ... Yes (0.041)
+Checking if you have Term::ReadLine 0 ... Yes (1.14)
+Checking if you have File::Remove 1.49 ... Yes (1.52)
+Checking if you have File::Spec 3.2701 ... Yes (3.47)
+Checking if you have URI 0 ... Yes (1.69)
+Checking if you have Encode 2.26 ... Yes (2.60)
+Checking if you have LWP::UserAgent 5.815 ... Yes (6.06)
+Checking if you have Text::FindIndent 0.10 ... Yes (0.10)
+Checking if you have version 0.80 ... Yes (0.9912)
+Checking if you have Module::CoreList 2.22 ... Yes (5.20150920)
+Checking if you have Alien::wxWidgets 0.46 ... Yes (0.67)
+Checking if you have IPC::Open2 0 ... Yes (1.04)
+Checking if you have Parse::ErrorString::Perl 0.14 ... Yes (0.21)
+Checking if you have Class::Adapter 1.05 ... Yes (1.08)
+Checking if you have File::Copy::Recursive 0.37 ... Yes (0.38)
+Checking if you have Pod::Simple::XHTML 3.04 ... Yes (3.28)
+Checking if you have File::Temp 0.20 ... Yes (0.2304)
+Checking if you have Template::Tiny 0.11 ... Yes (1.12)
+Checking if you have ExtUtils::Manifest 1.56 ... Yes (1.70)
+Checking if you have DBI 1.58 ... Yes (1.631)
+Checking if you have Test::Script 1.07 ... Yes (1.07)
+==> Found dependencies: Format::Human::Bytes
+Searching Format::Human::Bytes (0.06) on cpanmetadb ...
+--> Working on Format::Human::Bytes
+Fetching http://www.cpan.org/authors/id/S/SE/SEWI/Format-Human-Bytes-0.06.tar.gz
+-> OK
+Unpacking Format-Human-Bytes-0.06.tar.gz
+Entering Format-Human-Bytes-0.06
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.10)
+Configuring Format-Human-Bytes-0.06
+Running Makefile.PL
+Cannot determine perl version info from lib/Format/Human/Bytes.pm
+*** Module::AutoInstall version 1.03
+*** Checking for Perl dependencies...
+*** Since we're running under CPAN, I'll just let it take care
+    of the dependency's installation later.
+[Core Features]
+- Test::More ...loaded. (1.001014)
+*** Module::AutoInstall configuration finished.
+Checking if your kit is complete...
+Looks good
+Generating a dmake-style Makefile
+Writing Makefile for Format::Human::Bytes
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (7.10)
+Checking if you have Test::More 0 ... Yes (1.001014)
+Building and testing Format-Human-Bytes-0.06
+cp lib/Format/Human/Bytes.pm blib\lib\Format\Human\Bytes.pm
+"C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\bin\perl.exe" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'inc', 'blib\lib', 'blib\arch')" t/00-load.t t/01-base2.t t/02-base10.t
+# Testing Format::Human::Bytes 0.06, Perl 5.020000, C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\bin\perl.exe
+t/00-load.t .... ok
+t/01-base2.t ... ok
+t/02-base10.t .. ok
+All tests successful.
+Files=3, Tests=216,  1 wallclock secs ( 0.14 usr +  0.09 sys =  0.23 CPU)
+Result: PASS
+Installing C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\site\lib\Format\Human\Bytes.pm
+Appending installation info to C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\lib/perllocal.pod
+-> OK
+Successfully installed Format-Human-Bytes-0.06
+Installing C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\site\lib\MSWin32-x86-multi-thread-64int\.meta\Format-Human-Bytes-0.06\install.json
+Installing C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\site\lib\MSWin32-x86-multi-thread-64int\.meta\Format-Human-Bytes-0.06\MYMETA.json
+Building and testing Padre-0.94
+blib\lib\auto\share\dist\Padre\locale -> blib\lib\auto\share\dist\Padre\locale
+blib\lib\auto\share\dist\Padre\locale\he.po -> blib\lib\auto\share\dist\Padre\locale\he.mo
+blib\lib\auto\share\dist\Padre\locale\hu.po -> blib\lib\auto\share\dist\Padre\locale\hu.mo
+blib\lib\auto\share\dist\Padre\locale\pl.po -> blib\lib\auto\share\dist\Padre\locale\pl.mo
+blib\lib\auto\share\dist\Padre\locale\fr.po -> blib\lib\auto\share\dist\Padre\locale\fr.mo
+blib\lib\auto\share\dist\Padre\locale\nl-nl.po -> blib\lib\auto\share\dist\Padre\locale\nl-nl.mo
+blib\lib\auto\share\dist\Padre\locale\ar.po -> blib\lib\auto\share\dist\Padre\locale\ar.mo
+blib\lib\auto\share\dist\Padre\locale\pt-br.po -> blib\lib\auto\share\dist\Padre\locale\pt-br.mo
+blib\lib\auto\share\dist\Padre\locale\it-it.po -> blib\lib\auto\share\dist\Padre\locale\it-it.mo
+blib\lib\auto\share\dist\Padre\locale\zh-cn.po -> blib\lib\auto\share\dist\Padre\locale\zh-cn.mo
+blib\lib\auto\share\dist\Padre\locale\zh-tw.po -> blib\lib\auto\share\dist\Padre\locale\zh-tw.mo
+blib\lib\auto\share\dist\Padre\locale\ko.po -> blib\lib\auto\share\dist\Padre\locale\ko.mo
+blib\lib\auto\share\dist\Padre\locale\ru.po -> blib\lib\auto\share\dist\Padre\locale\ru.mo
+blib\lib\auto\share\dist\Padre\locale\es-es.po -> blib\lib\auto\share\dist\Padre\locale\es-es.mo
+blib\lib\auto\share\dist\Padre\locale\no.po -> blib\lib\auto\share\dist\Padre\locale\no.mo
+blib\lib\auto\share\dist\Padre\locale\de.po -> blib\lib\auto\share\dist\Padre\locale\de.mo
+blib\lib\auto\share\dist\Padre\locale\cz.po -> blib\lib\auto\share\dist\Padre\locale\cz.mo
+blib\lib\auto\share\dist\Padre\locale\fa.po -> blib\lib\auto\share\dist\Padre\locale\fa.mo
+blib\lib\auto\share\dist\Padre\locale\tr.po -> blib\lib\auto\share\dist\Padre\locale\tr.mo
+blib\lib\auto\share\dist\Padre\locale\ja.po -> blib\lib\auto\share\dist\Padre\locale\ja.mo
+-blib\lib\auto\share\dist\Padre\locale\messages.pot
+cp lib/Padre/Autosave.pm blib\lib\Padre\Autosave.pm
+cp lib/Padre/Browser/PseudoPerldoc.pm blib\lib\Padre\Browser\PseudoPerldoc.pm
+cp lib/Padre/DB.pm blib\lib\Padre\DB.pm
+cp lib/Padre/DB/HostConfig.pm blib\lib\Padre\DB\HostConfig.pm
+cp lib/Padre/Browser.pm blib\lib\Padre\Browser.pm
+cp lib/Padre/Breakpoints.pm blib\lib\Padre\Breakpoints.pm
+cp lib/Padre/Browser/POD.pm blib\lib\Padre\Browser\POD.pm
+cp lib/Padre/CPAN.pm blib\lib\Padre\CPAN.pm
+cp lib/Padre.pm blib\lib\Padre.pm
+cp lib/Padre/Cache.pm blib\lib\Padre\Cache.pm
+cp lib/Padre/Current.pm blib\lib\Padre\Current.pm
+cp lib/Padre/DB/Bookmark.pm blib\lib\Padre\DB\Bookmark.pm
+cp lib/Padre/Config/Human.pm blib\lib\Padre\Config\Human.pm
+cp lib/Padre/Constant.pm blib\lib\Padre\Constant.pm
+cp lib/Padre/DB/History.pm blib\lib\Padre\DB\History.pm
+cp lib/Padre/Config/Host.pm blib\lib\Padre\Config\Host.pm
+cp lib/Padre/Config/Setting.pm blib\lib\Padre\Config\Setting.pm
+cp lib/Padre/Config/Patch.pm blib\lib\Padre\Config\Patch.pm
+cp lib/Padre/Browser/Document.pm blib\lib\Padre\Browser\Document.pm
+cp lib/Padre/Command.pm blib\lib\Padre\Command.pm
+cp lib/Padre/Config/Project.pm blib\lib\Padre\Config\Project.pm
+cp lib/Padre/Config.pm blib\lib\Padre\Config.pm
+cp lib/Padre/Config/Apply.pm blib\lib\Padre\Config\Apply.pm
+cp lib/Padre/Document/Java.pm blib\lib\Padre\Document\Java.pm
+cp lib/Padre/Document/Perl/FunctionList.pm blib\lib\Padre\Document\Perl\FunctionList.pm
+cp lib/Padre/Document/Perl/Autocomplete.pm blib\lib\Padre\Document\Perl\Autocomplete.pm
+cp lib/Padre/Delta.pm blib\lib\Padre\Delta.pm
+cp lib/Padre/Document/Java/FunctionList.pm blib\lib\Padre\Document\Java\FunctionList.pm
+cp lib/Padre/Document/Patch.pm blib\lib\Padre\Document\Patch.pm
+cp lib/Padre/Document/CSharp/FunctionList.pm blib\lib\Padre\Document\CSharp\FunctionList.pm
+cp lib/Padre/DB/Session.pm blib\lib\Padre\DB\Session.pm
+cp lib/Padre/Document/Perl/Beginner.pm blib\lib\Padre\Document\Perl\Beginner.pm
+cp lib/Padre/DB/Snippets.pod blib\lib\Padre\DB\Snippets.pod
+cp lib/Padre/Document.pm blib\lib\Padre\Document.pm
+cp lib/Padre/Desktop.pm blib\lib\Padre\Desktop.pm
+cp lib/Padre/Document/Perl.pm blib\lib\Padre\Document\Perl.pm
+cp lib/Padre/DB/LastPositionInFile.pm blib\lib\Padre\DB\LastPositionInFile.pm
+cp lib/Padre/DB/Plugin.pod blib\lib\Padre\DB\Plugin.pod
+cp lib/Padre/DB/SessionFile.pm blib\lib\Padre\DB\SessionFile.pm
+cp lib/Padre/DB/RecentlyUsed.pm blib\lib\Padre\DB\RecentlyUsed.pm
+cp lib/Padre/Document/CSharp.pm blib\lib\Padre\Document\CSharp.pm
+cp lib/Padre/DB/Timeline.pm blib\lib\Padre\DB\Timeline.pm
+cp lib/Padre/File/HTTP.pm blib\lib\Padre\File\HTTP.pm
+cp lib/Padre/Document/Ruby.pm blib\lib\Padre\Document\Ruby.pm
+cp lib/Padre/Document/Perl/Outline.pm blib\lib\Padre\Document\Perl\Outline.pm
+cp lib/Padre/Document/Ruby/FunctionList.pm blib\lib\Padre\Document\Ruby\FunctionList.pm
+cp lib/Padre/Document/Perl/Starter.pm blib\lib\Padre\Document\Perl\Starter.pm
+cp lib/Padre/Document/Python.pm blib\lib\Padre\Document\Python.pm
+cp lib/Padre/Document/Perl/Help.pm blib\lib\Padre\Document\Perl\Help.pm
+cp lib/Padre/File.pm blib\lib\Padre\File.pm
+cp lib/Padre/Document/Perl/QuickFix/StrictWarnings.pm blib\lib\Padre\Document\Perl\QuickFix\StrictWarnings.pm
+cp lib/Padre/Document/Perl/QuickFix/IncludeModule.pm blib\lib\Padre\Document\Perl\QuickFix\IncludeModule.pm
+cp lib/Padre/Document/Python/FunctionList.pm blib\lib\Padre\Document\Python\FunctionList.pm
+cp lib/Padre/Document/Perl/PPILexer.pm blib\lib\Padre\Document\Perl\PPILexer.pm
+cp lib/Padre/Document/Perl/QuickFix.pm blib\lib\Padre\Document\Perl\QuickFix.pm
+cp lib/Padre/Document/Perl/Lexer.pm blib\lib\Padre\Document\Perl\Lexer.pm
+cp lib/Padre/File/FTP.pm blib\lib\Padre\File\FTP.pm
+cp lib/Padre/Document/Perl/Syntax.pm blib\lib\Padre\Document\Perl\Syntax.pm
+cp lib/Padre/Feature.pm blib\lib\Padre\Feature.pm
+cp lib/Padre/PPI/UpdateCopyright.pm blib\lib\Padre\PPI\UpdateCopyright.pm
+cp lib/Padre/File/Local.pm blib\lib\Padre\File\Local.pm
+cp lib/Padre/Help.pm blib\lib\Padre\Help.pm
+cp lib/Padre/PPI/Transform.pm blib\lib\Padre\PPI\Transform.pm
+cp lib/Padre/Plugin/PopularityContest.pm blib\lib\Padre\Plugin\PopularityContest.pm
+cp lib/Padre/Lock.pm blib\lib\Padre\Lock.pm
+cp lib/Padre/Manual.pod blib\lib\Padre\Manual.pod
+cp lib/Padre/Locale.pm blib\lib\Padre\Locale.pm
+cp lib/Padre/PPI.pm blib\lib\Padre\PPI.pm
+cp lib/Padre/Locker.pm blib\lib\Padre\Locker.pm
+cp lib/Padre/PluginHandle.pm blib\lib\Padre\PluginHandle.pm
+cp lib/Padre/Plugin.pm blib\lib\Padre\Plugin.pm
+cp lib/Padre/MIME.pm blib\lib\Padre\MIME.pm
+cp lib/Padre/Plugin/PopularityContest/Ping.pm blib\lib\Padre\Plugin\PopularityContest\Ping.pm
+cp lib/Padre/Perl.pm blib\lib\Padre\Perl.pm
+cp lib/Padre/Logger.pm blib\lib\Padre\Logger.pm
+cp lib/Padre/Plugin/Devel.pm blib\lib\Padre\Plugin\Devel.pm
+cp lib/Padre/PPI/EndifyPod.pm blib\lib\Padre\PPI\EndifyPod.pm
+cp lib/Padre/Locale/T.pm blib\lib\Padre\Locale\T.pm
+cp lib/Padre/Manual/Hacking.pod blib\lib\Padre\Manual\Hacking.pod
+cp lib/Padre/Plugin/My.pm blib\lib\Padre\Plugin\My.pm
+cp lib/Padre/PluginBuilder.pm blib\lib\Padre\PluginBuilder.pm
+cp lib/Padre/Task/BackupUnsaved.pm blib\lib\Padre\Task\BackupUnsaved.pm
+cp lib/Padre/Project/Perl/Temp.pm blib\lib\Padre\Project\Perl\Temp.pm
+cp lib/Padre/ProjectManager.pm blib\lib\Padre\ProjectManager.pm
+cp lib/Padre/Project/Temp.pm blib\lib\Padre\Project\Temp.pm
+cp lib/Padre/Role/Task.pm blib\lib\Padre\Role\Task.pm
+cp lib/Padre/Task/Addition.pm blib\lib\Padre\Task\Addition.pm
+cp lib/Padre/Project/Perl/EUMM.pm blib\lib\Padre\Project\Perl\EUMM.pm
+cp lib/Padre/PluginManager.pm blib\lib\Padre\PluginManager.pm
+cp lib/Padre/Project/Perl/DZ.pm blib\lib\Padre\Project\Perl\DZ.pm
+cp lib/Padre/SVN.pm blib\lib\Padre\SVN.pm
+cp lib/Padre/Sync.pm blib\lib\Padre\Sync.pm
+cp lib/Padre/Project/Perl/MB.pm blib\lib\Padre\Project\Perl\MB.pm
+cp lib/Padre/Portable.pm blib\lib\Padre\Portable.pm
+cp lib/Padre/Pod2HTML.pm blib\lib\Padre\Pod2HTML.pm
+cp lib/Padre/Startup.pm blib\lib\Padre\Startup.pm
+cp lib/Padre/Project.pm blib\lib\Padre\Project.pm
+cp lib/Padre/QuickFix.pm blib\lib\Padre\QuickFix.pm
+cp lib/Padre/Project/Null.pm blib\lib\Padre\Project\Null.pm
+cp lib/Padre/Project/Perl/MI.pm blib\lib\Padre\Project\Perl\MI.pm
+cp lib/Padre/Search.pm blib\lib\Padre\Search.pm
+cp lib/Padre/Project/Perl.pm blib\lib\Padre\Project\Perl.pm
+cp lib/Padre/Task.pm blib\lib\Padre\Task.pm
+cp lib/Padre/Task/FunctionList.pm blib\lib\Padre\Task\FunctionList.pm
+cp lib/Padre/Task/Diff.pm blib\lib\Padre\Task\Diff.pm
+cp lib/Padre/Task/PPI.pm blib\lib\Padre\Task\PPI.pm
+cp lib/Padre/Task/Pod2HTML.pm blib\lib\Padre\Task\Pod2HTML.pm
+cp lib/Padre/Task/Eval.pm blib\lib\Padre\Task\Eval.pm
+cp lib/Padre/Task/Browser.pm blib\lib\Padre\Task\Browser.pm
+cp lib/Padre/Task/Outline.pm blib\lib\Padre\Task\Outline.pm
+cp lib/Padre/Task/FindUnmatchedBrace.pm blib\lib\Padre\Task\FindUnmatchedBrace.pm
+cp lib/Padre/Task/RecentFiles.pm blib\lib\Padre\Task\RecentFiles.pm
+cp lib/Padre/Task/LaunchDefaultBrowser.pm blib\lib\Padre\Task\LaunchDefaultBrowser.pm
+cp lib/Padre/Task/ReplaceInFiles.pm blib\lib\Padre\Task\ReplaceInFiles.pm
+cp lib/Padre/Task/LexicalReplaceVariable.pm blib\lib\Padre\Task\LexicalReplaceVariable.pm
+cp lib/Padre/Task/IntroduceTemporaryVariable.pm blib\lib\Padre\Task\IntroduceTemporaryVariable.pm
+cp lib/Padre/Task/CPAN.pm blib\lib\Padre\Task\CPAN.pm
+cp lib/Padre/Task/OpenResource.pm blib\lib\Padre\Task\OpenResource.pm
+cp lib/Padre/Task/FindInFiles.pm blib\lib\Padre\Task\FindInFiles.pm
+cp lib/Padre/Task/File.pm blib\lib\Padre\Task\File.pm
+cp lib/Padre/Task/FindVariableDeclaration.pm blib\lib\Padre\Task\FindVariableDeclaration.pm
+cp lib/Padre/Task/LWP.pm blib\lib\Padre\Task\LWP.pm
+cp lib/Padre/Task/VCS.pm blib\lib\Padre\Task\VCS.pm
+cp lib/Padre/Util/Win32.pm blib\lib\Padre\Util\Win32.pm
+cp lib/Padre/Test.pm blib\lib\Padre\Test.pm
+cp lib/Padre/Transform.pm blib\lib\Padre\Transform.pm
+cp lib/Padre/Util/SVN.pm blib\lib\Padre\Util\SVN.pm
+cp lib/Padre/Util/CommandLine.pm blib\lib\Padre\Util\CommandLine.pm
+cp lib/Padre/Util/FileBrowser.pm blib\lib\Padre\Util\FileBrowser.pm
+cp lib/Padre/TaskQueue.pm blib\lib\Padre\TaskQueue.pm
+cp lib/Padre/Task/Run.pm blib\lib\Padre\Task\Run.pm
+cp lib/Padre/Task/Transform.pm blib\lib\Padre\Task\Transform.pm
+cp lib/Padre/Wx/App.pm blib\lib\Padre\Wx\App.pm
+cp lib/Padre/Template.pm blib\lib\Padre\Template.pm
+cp lib/Padre/Util/Template.pm blib\lib\Padre\Util\Template.pm
+cp lib/Padre/Wx/ActionLibrary.pm blib\lib\Padre\Wx\ActionLibrary.pm
+cp lib/Padre/Wx/ActionQueue.pm blib\lib\Padre\Wx\ActionQueue.pm
+cp lib/Padre/Wx.pm blib\lib\Padre\Wx.pm
+cp lib/Padre/TaskWorker.pm blib\lib\Padre\TaskWorker.pm
+cp lib/Padre/Wx/Action.pm blib\lib\Padre\Wx\Action.pm
+cp lib/Padre/Task/Syntax.pm blib\lib\Padre\Task\Syntax.pm
+cp lib/Padre/TaskHandle.pm blib\lib\Padre\TaskHandle.pm
+cp lib/Padre/Unload.pm blib\lib\Padre\Unload.pm
+cp lib/Padre/Util.pm blib\lib\Padre\Util.pm
+cp lib/Padre/TaskManager.pm blib\lib\Padre\TaskManager.pm
+cp lib/Padre/Wx/Command.pm blib\lib\Padre\Wx\Command.pm
+cp lib/Padre/Wx/Dialog/About.pm blib\lib\Padre\Wx\Dialog\About.pm
+cp lib/Padre/Wx/Constant.pm blib\lib\Padre\Wx\Constant.pm
+cp lib/Padre/Wx/Dialog/Bookmarks.pm blib\lib\Padre\Wx\Dialog\Bookmarks.pm
+cp lib/Padre/Wx/CPAN.pm blib\lib\Padre\Wx\CPAN.pm
+cp lib/Padre/Wx/Dialog/Find.pm blib\lib\Padre\Wx\Dialog\Find.pm
+cp lib/Padre/Wx/Choice/Files.pm blib\lib\Padre\Wx\Choice\Files.pm
+cp lib/Padre/Wx/Bottom.pm blib\lib\Padre\Wx\Bottom.pm
+cp lib/Padre/Wx/CPAN/Listview.pm blib\lib\Padre\Wx\CPAN\Listview.pm
+cp lib/Padre/Wx/Dialog/Diff.pm blib\lib\Padre\Wx\Dialog\Diff.pm
+cp lib/Padre/Wx/Browser.pm blib\lib\Padre\Wx\Browser.pm
+cp lib/Padre/Wx/ComboBox/FindTerm.pm blib\lib\Padre\Wx\ComboBox\FindTerm.pm
+cp lib/Padre/Wx/Dialog/FilterTool.pm blib\lib\Padre\Wx\Dialog\FilterTool.pm
+cp lib/Padre/Wx/Dialog/Expression.pm blib\lib\Padre\Wx\Dialog\Expression.pm
+cp lib/Padre/Wx/AuiManager.pm blib\lib\Padre\Wx\AuiManager.pm
+cp lib/Padre/Wx/Dialog/Document.pm blib\lib\Padre\Wx\Dialog\Document.pm
+cp lib/Padre/Wx/ComboBox/History.pm blib\lib\Padre\Wx\ComboBox\History.pm
+cp lib/Padre/Wx/Dialog/Advanced.pm blib\lib\Padre\Wx\Dialog\Advanced.pm
+cp lib/Padre/Wx/Choice/Theme.pm blib\lib\Padre\Wx\Choice\Theme.pm
+cp lib/Padre/Wx/Dialog/Replace.pm blib\lib\Padre\Wx\Dialog\Replace.pm
+cp lib/Padre/Wx/Dialog/Goto.pm blib\lib\Padre\Wx\Dialog\Goto.pm
+cp lib/Padre/Wx/Dialog/QuickMenuAccess.pm blib\lib\Padre\Wx\Dialog\QuickMenuAccess.pm
+cp lib/Padre/Wx/Dialog/Form.pm blib\lib\Padre\Wx\Dialog\Form.pm
+cp lib/Padre/Wx/Dialog/Preferences.pm blib\lib\Padre\Wx\Dialog\Preferences.pm
+cp lib/Padre/Wx/Dialog/RefactorSelectFunction.pm blib\lib\Padre\Wx\Dialog\RefactorSelectFunction.pm
+cp lib/Padre/Wx/Dialog/PluginManager.pm blib\lib\Padre\Wx\Dialog\PluginManager.pm
+cp lib/Padre/Wx/Dialog/Patch.pm blib\lib\Padre\Wx\Dialog\Patch.pm
+cp lib/Padre/Wx/Dialog/RegexEditor.pm blib\lib\Padre\Wx\Dialog\RegexEditor.pm
+cp lib/Padre/Wx/Dialog/Positions.pm blib\lib\Padre\Wx\Dialog\Positions.pm
+cp lib/Padre/Wx/Dialog/HelpSearch.pm blib\lib\Padre\Wx\Dialog\HelpSearch.pm
+cp lib/Padre/Wx/Dialog/ReplaceInFiles.pm blib\lib\Padre\Wx\Dialog\ReplaceInFiles.pm
+cp lib/Padre/Wx/Dialog/FindInFiles.pm blib\lib\Padre\Wx\Dialog\FindInFiles.pm
+cp lib/Padre/Wx/Dialog/OpenResource.pm blib\lib\Padre\Wx\Dialog\OpenResource.pm
+cp lib/Padre/Wx/Dialog/OpenURL.pm blib\lib\Padre\Wx\Dialog\OpenURL.pm
+cp lib/Padre/Wx/Dialog/PerlFilter.pm blib\lib\Padre\Wx\Dialog\PerlFilter.pm
+cp lib/Padre/Wx/Dialog/SessionSave.pm blib\lib\Padre\Wx\Dialog\SessionSave.pm
+cp lib/Padre/Wx/Directory.pm blib\lib\Padre\Wx\Directory.pm
+cp lib/Padre/Wx/Dialog/Snippet.pm blib\lib\Padre\Wx\Dialog\Snippet.pm
+cp lib/Padre/Wx/Dialog/Text.pm blib\lib\Padre\Wx\Dialog\Text.pm
+cp lib/Padre/Wx/Directory/Search.pm blib\lib\Padre\Wx\Directory\Search.pm
+cp lib/Padre/Wx/Directory/TreeCtrl.pm blib\lib\Padre\Wx\Directory\TreeCtrl.pm
+cp lib/Padre/Wx/Dialog/WindowList.pm blib\lib\Padre\Wx\Dialog\WindowList.pm
+cp lib/Padre/Wx/Dialog/WhereFrom.pm blib\lib\Padre\Wx\Dialog\WhereFrom.pm
+cp lib/Padre/Wx/Diff2.pm blib\lib\Padre\Wx\Diff2.pm
+cp lib/Padre/Wx/Dialog/SessionManager2.pm blib\lib\Padre\Wx\Dialog\SessionManager2.pm
+cp lib/Padre/Wx/Dialog/Shortcut.pm blib\lib\Padre\Wx\Dialog\Shortcut.pm
+cp lib/Padre/Wx/Directory/Browse.pm blib\lib\Padre\Wx\Directory\Browse.pm
+cp lib/Padre/Wx/Directory/Path.pm blib\lib\Padre\Wx\Directory\Path.pm
+cp lib/Padre/Wx/Dialog/SessionManager.pm blib\lib\Padre\Wx\Dialog\SessionManager.pm
+cp lib/Padre/Wx/Diff.pm blib\lib\Padre\Wx\Diff.pm
+cp lib/Padre/Wx/Dialog/Special.pm blib\lib\Padre\Wx\Dialog\Special.pm
+cp lib/Padre/Wx/Dialog/Warning.pm blib\lib\Padre\Wx\Dialog\Warning.pm
+cp lib/Padre/Wx/Dialog/Sync.pm blib\lib\Padre\Wx\Dialog\Sync.pm
+cp lib/Padre/Wx/Display.pm blib\lib\Padre\Wx\Display.pm
+cp lib/Padre/Wx/FBP/Patch.pm blib\lib\Padre\Wx\FBP\Patch.pm
+cp lib/Padre/Wx/FBP/Bookmarks.pm blib\lib\Padre\Wx\FBP\Bookmarks.pm
+cp lib/Padre/Wx/Editor/Lock.pm blib\lib\Padre\Wx\Editor\Lock.pm
+cp lib/Padre/Wx/FBP/FindInFiles.pm blib\lib\Padre\Wx\FBP\FindInFiles.pm
+cp lib/Padre/Wx/FBP/Expression.pm blib\lib\Padre\Wx\FBP\Expression.pm
+cp lib/Padre/Wx/FBP/POD.pm blib\lib\Padre\Wx\FBP\POD.pm
+cp lib/Padre/Wx/FBP/Breakpoints.pm blib\lib\Padre\Wx\FBP\Breakpoints.pm
+cp lib/Padre/Wx/FBP/FoundInFiles.pm blib\lib\Padre\Wx\FBP\FoundInFiles.pm
+cp lib/Padre/Wx/FBP/Outline.pm blib\lib\Padre\Wx\FBP\Outline.pm
+cp lib/Padre/Wx/FBP/FindFast.pm blib\lib\Padre\Wx\FBP\FindFast.pm
+cp lib/Padre/Wx/Editor/Menu.pm blib\lib\Padre\Wx\Editor\Menu.pm
+cp lib/Padre/Wx/FBP/Debugger.pm blib\lib\Padre\Wx\FBP\Debugger.pm
+cp lib/Padre/Wx/FBP/CPAN.pm blib\lib\Padre\Wx\FBP\CPAN.pm
+cp lib/Padre/Wx/FBP/About.pm blib\lib\Padre\Wx\FBP\About.pm
+cp lib/Padre/Wx/Editor.pm blib\lib\Padre\Wx\Editor.pm
+cp lib/Padre/Wx/FBP/DebugOutput.pm blib\lib\Padre\Wx\FBP\DebugOutput.pm
+cp lib/Padre/Wx/FBP/Diff.pm blib\lib\Padre\Wx\FBP\Diff.pm
+cp lib/Padre/Wx/FBP/Find.pm blib\lib\Padre\Wx\FBP\Find.pm
+cp lib/Padre/Wx/FBP/Document.pm blib\lib\Padre\Wx\FBP\Document.pm
+cp lib/Padre/Wx/Frame/HTML.pm blib\lib\Padre\Wx\Frame\HTML.pm
+cp lib/Padre/Wx/FBP/Sync.pm blib\lib\Padre\Wx\FBP\Sync.pm
+cp lib/Padre/Wx/FBP/SessionManager.pm blib\lib\Padre\Wx\FBP\SessionManager.pm
+cp lib/Padre/Wx/FBP/WhereFrom.pm blib\lib\Padre\Wx\FBP\WhereFrom.pm
+cp lib/Padre/Wx/Frame/Null.pm blib\lib\Padre\Wx\Frame\Null.pm
+cp lib/Padre/Wx/FBP/Text.pm blib\lib\Padre\Wx\FBP\Text.pm
+cp lib/Padre/Wx/FBP/VCS.pm blib\lib\Padre\Wx\FBP\VCS.pm
+cp lib/Padre/Wx/FunctionList.pm blib\lib\Padre\Wx\FunctionList.pm
+cp lib/Padre/Wx/FBP/Syntax.pm blib\lib\Padre\Wx\FBP\Syntax.pm
+cp lib/Padre/Wx/FBP/Preferences.pm blib\lib\Padre\Wx\FBP\Preferences.pm
+cp lib/Padre/Wx/FBP/ReplaceInFiles.pm blib\lib\Padre\Wx\FBP\ReplaceInFiles.pm
+cp lib/Padre/Wx/FBP/PluginManager.pm blib\lib\Padre\Wx\FBP\PluginManager.pm
+cp lib/Padre/Wx/HtmlWindow.pm blib\lib\Padre\Wx\HtmlWindow.pm
+cp lib/Padre/Wx/Frame/POD.pm blib\lib\Padre\Wx\Frame\POD.pm
+cp lib/Padre/Wx/FBP/Replace.pm blib\lib\Padre\Wx\FBP\Replace.pm
+cp lib/Padre/Wx/FBP/Snippet.pm blib\lib\Padre\Wx\FBP\Snippet.pm
+cp lib/Padre/Wx/FBP/Special.pm blib\lib\Padre\Wx\FBP\Special.pm
+cp lib/Padre/Wx/FileDropTarget.pm blib\lib\Padre\Wx\FileDropTarget.pm
+cp lib/Padre/Wx/FunctionList/Menu.pm blib\lib\Padre\Wx\FunctionList\Menu.pm
+cp lib/Padre/Wx/Menubar.pm blib\lib\Padre\Wx\Menubar.pm
+cp lib/Padre/Wx/Menu/View.pm blib\lib\Padre\Wx\Menu\View.pm
+cp lib/Padre/Wx/Menu.pm blib\lib\Padre\Wx\Menu.pm
+cp lib/Padre/Wx/Menu/Refactor.pm blib\lib\Padre\Wx\Menu\Refactor.pm
+cp lib/Padre/Wx/Left.pm blib\lib\Padre\Wx\Left.pm
+cp lib/Padre/Wx/Menu/Window.pm blib\lib\Padre\Wx\Menu\Window.pm
+cp lib/Padre/Wx/Menu/File.pm blib\lib\Padre\Wx\Menu\File.pm
+cp lib/Padre/Wx/Menu/Debug.pm blib\lib\Padre\Wx\Menu\Debug.pm
+cp lib/Padre/Wx/Menu/Help.pm blib\lib\Padre\Wx\Menu\Help.pm
+cp lib/Padre/Wx/Nth.pm blib\lib\Padre\Wx\Nth.pm
+cp lib/Padre/Wx/Notebook.pm blib\lib\Padre\Wx\Notebook.pm
+cp lib/Padre/Wx/Icon.pm blib\lib\Padre\Wx\Icon.pm
+cp lib/Padre/Wx/Menu/Search.pm blib\lib\Padre\Wx\Menu\Search.pm
+cp lib/Padre/Wx/Menu/Tools.pm blib\lib\Padre\Wx\Menu\Tools.pm
+cp lib/Padre/Wx/Panel/Breakpoints.pm blib\lib\Padre\Wx\Panel\Breakpoints.pm
+cp lib/Padre/Wx/ListView.pm blib\lib\Padre\Wx\ListView.pm
+cp lib/Padre/Wx/Output.pm blib\lib\Padre\Wx\Output.pm
+cp lib/Padre/Wx/Main.pm blib\lib\Padre\Wx\Main.pm
+cp lib/Padre/Wx/Menu/Perl.pm blib\lib\Padre\Wx\Menu\Perl.pm
+cp lib/Padre/Wx/Outline.pm blib\lib\Padre\Wx\Outline.pm
+cp lib/Padre/Wx/Menu/Run.pm blib\lib\Padre\Wx\Menu\Run.pm
+cp lib/Padre/Wx/Menu/Edit.pm blib\lib\Padre\Wx\Menu\Edit.pm
+cp lib/Padre/Wx/Role/Form.pm blib\lib\Padre\Wx\Role\Form.pm
+cp lib/Padre/Wx/Role/Main.pm blib\lib\Padre\Wx\Role\Main.pm
+cp lib/Padre/Wx/Role/Dwell.pm blib\lib\Padre\Wx\Role\Dwell.pm
+cp lib/Padre/Wx/ScrollLock.pm blib\lib\Padre\Wx\ScrollLock.pm
+cp lib/Padre/Wx/Panel/DebugOutput.pm blib\lib\Padre\Wx\Panel\DebugOutput.pm
+cp lib/Padre/Wx/StatusBar.pm blib\lib\Padre\Wx\StatusBar.pm
+cp lib/Padre/Wx/SelectionLock.pm blib\lib\Padre\Wx\SelectionLock.pm
+cp lib/Padre/Wx/Role/Conduit.pm blib\lib\Padre\Wx\Role\Conduit.pm
+cp lib/Padre/Wx/Role/Config.pm blib\lib\Padre\Wx\Role\Config.pm
+cp lib/Padre/Wx/Right.pm blib\lib\Padre\Wx\Right.pm
+cp lib/Padre/Wx/Role/Dialog.pm blib\lib\Padre\Wx\Role\Dialog.pm
+cp lib/Padre/Wx/Role/View.pm blib\lib\Padre\Wx\Role\View.pm
+cp lib/Padre/Wx/Popup.pm blib\lib\Padre\Wx\Popup.pm
+cp lib/Padre/Wx/Panel/FoundInFiles.pm blib\lib\Padre\Wx\Panel\FoundInFiles.pm
+cp lib/Padre/Wx/Printout.pm blib\lib\Padre\Wx\Printout.pm
+cp lib/Padre/Wx/Scintilla.pm blib\lib\Padre\Wx\Scintilla.pm
+cp lib/Padre/Wx/Progress.pm blib\lib\Padre\Wx\Progress.pm
+cp lib/Padre/Wx/ReplaceInFiles.pm blib\lib\Padre\Wx\ReplaceInFiles.pm
+cp lib/Padre/Wx/Panel/Debugger.pm blib\lib\Padre\Wx\Panel\Debugger.pm
+cp lib/Padre/Wx/Panel/FindFast.pm blib\lib\Padre\Wx\Panel\FindFast.pm
+cp lib/Padre/Wx/TreeCtrl.pm blib\lib\Padre\Wx\TreeCtrl.pm
+cp lib/Padre/Wx/VCS.pm blib\lib\Padre\Wx\VCS.pm
+cp lib/Padre/Wx/TextEntryDialog/History.pm blib\lib\Padre\Wx\TextEntryDialog\History.pm
+cp lib/Padre/Wx/Syntax.pm blib\lib\Padre\Wx\Syntax.pm
+cp lib/Padre/Wx/Util.pm blib\lib\Padre\Wx\Util.pm
+cp lib/Padre/Wx/TodoList.pm blib\lib\Padre\Wx\TodoList.pm
+cp lib/Padre/Wx/Style.pm blib\lib\Padre\Wx\Style.pm
+cp lib/Padre/Wx/ToolBar.pm blib\lib\Padre\Wx\ToolBar.pm
+cp lib/Padre/Wx/Theme.pm blib\lib\Padre\Wx\Theme.pm
+Running Mkbootstrap for Padre::Util::Win32 ()
+"C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\bin\perl.exe" -MExtUtils::Command -e chmod -- 644 "Win32.bs"
+"C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\bin\perl.exe" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\lib\ExtUtils\xsubpp"  -typemap "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\lib\ExtUtils\typemap"  Win32.xs > Win32.xsc && "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\bin\perl.exe" -MExtUtils::Command -e mv -- Win32.xsc Win32.c
+Please specify prototyping behavior for Win32.xs (see perlxs manual)
+gcc -c   	-s -O2 -DWIN32 -DPERL_TEXTMODE_SCRIPTS -DPERL_IMPLICIT_CONTEXT -DPERL_IMPLICIT_SYS -DUSE_PERLIO -fwrapv -fno-strict-aliasing -mms-bitfields -s -O2 	  -DVERSION=\"0.94\" 	-DXS_VERSION=\"0.94\"  "-IC:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\lib\CORE"  -DPSAPI_VERSION=1 Win32.c
+"C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\bin\perl.exe" -MExtUtils::Mksymlists \
+     -e "Mksymlists('NAME'=>\"Padre::Util::Win32\", 'DLBASE' => 'Win32', 'DL_FUNCS' => {  }, 'FUNCLIST' => [], 'IMPORTS' => {  }, 'DL_VARS' => []);"
+dlltool --def Win32.def --output-exp dll.exp
+g++.exe -o ..\blib\arch\auto\Padre\Util\Win32\Win32.xs.dll -Wl,--base-file -Wl,dll.base -mdll -s -L"C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\lib\CORE" -L"C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\lib" Win32.o   "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\lib\CORE\libperl520.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libpsapi.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libmoldname.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libkernel32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libuser32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libgdi32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libwinspool.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libcomdlg32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libadvapi32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libshell32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libole32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\liboleaut32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libnetapi32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libuuid.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libws2_32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libmpr.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libwinmm.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libversion.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libodbc32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libodbccp32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libcomctl32.a" dll.exp
+dlltool --def Win32.def --base-file dll.base --output-exp dll.exp
+g++.exe -o ..\blib\arch\auto\Padre\Util\Win32\Win32.xs.dll -mdll -s -L"C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\lib\CORE" -L"C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\lib" Win32.o   "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\lib\CORE\libperl520.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libpsapi.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libmoldname.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libkernel32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libuser32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libgdi32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libwinspool.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libcomdlg32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libadvapi32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libshell32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libole32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\liboleaut32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libnetapi32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libuuid.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libws2_32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libmpr.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libwinmm.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libversion.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libodbc32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libodbccp32.a" "C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\c\i686-w64-mingw32\lib\libcomctl32.a" dll.exp 
+"C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\bin\perl.exe" -MExtUtils::Command -e chmod -- 755 ..\blib\arch\auto\Padre\Util\Win32\Win32.xs.dll
+"C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\bin\perl.exe" "-Iinc" -MExtUtils::Command -e cp -- script/padre blib\script\padre
+pl2bat.bat blib\script\padre
+blib\lib\auto\share\dist\Padre\locale -> blib\lib\auto\share\dist\Padre\locale
+blib\lib\auto\share\dist\Padre\locale\hu.po -> blib\lib\auto\share\dist\Padre\locale\hu.mo
+blib\lib\auto\share\dist\Padre\locale\ja.po -> blib\lib\auto\share\dist\Padre\locale\ja.mo
+blib\lib\auto\share\dist\Padre\locale\nl-nl.po -> blib\lib\auto\share\dist\Padre\locale\nl-nl.mo
+blib\lib\auto\share\dist\Padre\locale\it-it.po -> blib\lib\auto\share\dist\Padre\locale\it-it.mo
+blib\lib\auto\share\dist\Padre\locale\tr.po -> blib\lib\auto\share\dist\Padre\locale\tr.mo
+blib\lib\auto\share\dist\Padre\locale\fa.po -> blib\lib\auto\share\dist\Padre\locale\fa.mo
+blib\lib\auto\share\dist\Padre\locale\es-es.po -> blib\lib\auto\share\dist\Padre\locale\es-es.mo
+blib\lib\auto\share\dist\Padre\locale\cz.po -> blib\lib\auto\share\dist\Padre\locale\cz.mo
+blib\lib\auto\share\dist\Padre\locale\zh-cn.po -> blib\lib\auto\share\dist\Padre\locale\zh-cn.mo
+blib\lib\auto\share\dist\Padre\locale\pt-br.po -> blib\lib\auto\share\dist\Padre\locale\pt-br.mo
+blib\lib\auto\share\dist\Padre\locale\zh-tw.po -> blib\lib\auto\share\dist\Padre\locale\zh-tw.mo
+blib\lib\auto\share\dist\Padre\locale\no.po -> blib\lib\auto\share\dist\Padre\locale\no.mo
+blib\lib\auto\share\dist\Padre\locale\ko.po -> blib\lib\auto\share\dist\Padre\locale\ko.mo
+blib\lib\auto\share\dist\Padre\locale\fr.po -> blib\lib\auto\share\dist\Padre\locale\fr.mo
+blib\lib\auto\share\dist\Padre\locale\he.po -> blib\lib\auto\share\dist\Padre\locale\he.mo
+blib\lib\auto\share\dist\Padre\locale\ar.po -> blib\lib\auto\share\dist\Padre\locale\ar.mo
+blib\lib\auto\share\dist\Padre\locale\ru.po -> blib\lib\auto\share\dist\Padre\locale\ru.mo
+blib\lib\auto\share\dist\Padre\locale\de.po -> blib\lib\auto\share\dist\Padre\locale\de.mo
+blib\lib\auto\share\dist\Padre\locale\pl.po -> blib\lib\auto\share\dist\Padre\locale\pl.mo
+-blib\lib\auto\share\dist\Padre\locale\messages.pot
+"C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\perl\bin\perl.exe" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'inc', 'blib\lib', 'blib\arch')" t/*.t
+# Tests find Wx: 0.9927 wxWidgets 3.0.2
+
+#   Failed test 'no warnings'
+#   at C:/Users/TOSH/Documents/GitHub/dwimperl-windows/strawberry-perl-5.20.0.1-32bit-portable/perl/vendor/lib/Test/NoWarnings.pm line 45.
+# There were 1 warning(s)
+# 	Previous test 26 'use Padre::Role::Task;'
+# 	Possible precedence issue with control flow operator at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Document/Perl/QuickFix/StrictWarnings.pm line 71.
+#  at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Document/Perl/QuickFix/StrictWarnings.pm line 71.
+# 	require Padre/Document/Perl/QuickFix/StrictWarnings.pm called at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre.pm line 89
+# 	eval {...} called at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre.pm line 89
+# 	Padre::import("Padre", ":everything") called at t/01_compile.t line 53
+# 
+# Looks like you failed 1 test of 37.
+t/01_compile.t ............. 
+Dubious, test returned 1 (wstat 256, 0x100)
+Failed 1/37 subtests 
+Invalid version format (non-numeric data) at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+BEGIN failed--compilation aborted at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+Compilation failed in require at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menubar.pm line 72.
+# Looks like you planned 63 tests but ran 1.
+# Looks like your test exited with 255 just after 1.
+t/02_new.t ................. 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 62/63 subtests 
+Static Padre::DB->delete has been deprecated at t/03_db.t line 37.
+# Looks like you planned 6 tests but ran 4.
+# Looks like your test exited with 255 just after 4.
+t/03_db.t .................. 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 2/6 subtests 
+
+#   Failed test '->bin_shell defaults ok'
+#   at t/04_config.t line 44.
+#          got: 'C:\Users\TOSH\Documents\GitHub\dwimperl-windows\strawberry-perl-5.20.0.1-32bit-portable\cmd.exe'
+#     expected: 'cmd.exe'
+# Looks like you failed 1 test of 342.
+t/04_config.t .............. 
+Dubious, test returned 1 (wstat 256, 0x100)
+Failed 1/342 subtests 
+Invalid version format (non-numeric data) at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+BEGIN failed--compilation aborted at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+Compilation failed in require at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menubar.pm line 72.
+# Looks like you planned 16 tests but ran 2.
+# Looks like your test exited with 255 just after 2.
+t/05_project.t ............. 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 14/16 subtests 
+t/06_utils.t ............... ok
+t/07_version.t ............. ok
+t/08_style.t ............... ok
+t/09_search.t .............. ok
+Invalid version format (non-numeric data) at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+BEGIN failed--compilation aborted at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+Compilation failed in require at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menubar.pm line 72.
+# Looks like you planned 14 tests but ran 7.
+# Looks like your test exited with 255 just after 7.
+t/10_delta.t ............... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 7/14 subtests 
+t/11_mime.t ................ ok
+t/12_svn.t ................. skipped: Not in an SVN checkout
+t/13_findinfiles.t ......... ok
+t/14_warnings.t ............ ok
+Invalid version format (non-numeric data) at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+BEGIN failed--compilation aborted at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+Compilation failed in require at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menubar.pm line 72.
+# Looks like you planned 7 tests but ran 1.
+# Looks like your test exited with 255 just after 1.
+t/15_locale.t .............. 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 6/7 subtests 
+t/16_messages.t ............ ok
+t/17_newline.t ............. ok
+t/18_search.t .............. ok
+t/20_task_queue.t .......... ok
+t/22_task_worker.t ......... ok
+t/23_task_chain.t .......... ok
+t/24_task_master.t ......... ok
+t/25_task_handle.t ......... ok
+t/26_task_eval.t ........... ok
+t/27_task_signal.t ......... ok
+t/28_task_manager.t ........ ok
+t/29_task_nothreads.t ...... ok
+t/30_frame_html.t .......... ok
+Invalid version format (non-numeric data) at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+BEGIN failed--compilation aborted at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+Compilation failed in require at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menubar.pm line 72.
+# Looks like you planned 28 tests but ran 1.
+# Looks like your test exited with 255 just after 1.
+t/31_editor.t .............. 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 27/28 subtests 
+
+#   Failed test 'undef isa 'Padre::Browser::Document''
+#   at t/50_browser.t line 47.
+#     undef isn't defined
+Can't call method "mimetype" on an undefined value at t/50_browser.t line 48.
+# Looks like you planned 14 tests but ran 9.
+# Looks like you failed 1 test of 9 run.
+# Looks like your test exited with 25 just after 9.
+t/50_browser.t ............. 
+Dubious, test returned 25 (wstat 6400, 0x1900)
+Failed 6/14 subtests 
+t/61_directory_path.t ...... ok
+t/70_document.t ............ ok
+t/73_display.t ............. ok
+t/74_history_combobox.t .... ok
+t/75_autocomplete.t ........ ok
+
+#   Failed test 'Padre->new() died'
+#   at t/76_preferences.t line 22.
+#     Error was:  Invalid version format (non-numeric data) at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+# BEGIN failed--compilation aborted at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+# Compilation failed in require at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menubar.pm line 72.
+Can't call method "wx" on an undefined value at t/76_preferences.t line 23.
+# Looks like you planned 10 tests but ran 3.
+# Looks like you failed 1 test of 3 run.
+# Looks like your test exited with 255 just after 3.
+t/76_preferences.t ......... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 8/10 subtests 
+Invalid version format (non-numeric data) at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+BEGIN failed--compilation aborted at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+Compilation failed in require at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menubar.pm line 72.
+# Looks like you planned 29 tests but ran 1.
+# Looks like your test exited with 255 just after 1.
+t/82_plugin_manager.t ...... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 28/29 subtests 
+t/83_autosave.t ............ ok
+t/85_commandline.t ......... ok
+t/90_autocomplete.t ........ ok
+t/91_vi.t .................. ok
+t/92_padre_file.t .......... ok
+t/93_padre_filename_win.t .. ok
+t/94_padre_file_remote.t ... ok
+
+#   Failed test 'Padre->new() died'
+#   at t/95_edit_patch.t line 25.
+#     Error was:  Invalid version format (non-numeric data) at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+# BEGIN failed--compilation aborted at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+# Compilation failed in require at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menubar.pm line 72.
+Can't call method "wx" on an undefined value at t/95_edit_patch.t line 26.
+# Looks like you planned 27 tests but ran 3.
+# Looks like you failed 1 test of 3 run.
+# Looks like your test exited with 255 just after 3.
+t/95_edit_patch.t .......... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 25/27 subtests 
+
+#   Failed test 'Padre->new() died'
+#   at t/96_help_about.t line 26.
+#     Error was:  Invalid version format (non-numeric data) at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+# BEGIN failed--compilation aborted at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+# Compilation failed in require at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menubar.pm line 72.
+Can't call method "wx" on an undefined value at t/96_help_about.t line 27.
+# Looks like you planned 9 tests but ran 3.
+# Looks like you failed 1 test of 3 run.
+# Looks like your test exited with 255 just after 3.
+t/96_help_about.t .......... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 7/9 subtests 
+
+#   Failed test 'Padre->new() died'
+#   at t/97_debug_debugger.t line 26.
+#     Error was:  Invalid version format (non-numeric data) at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+# BEGIN failed--compilation aborted at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+# Compilation failed in require at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menubar.pm line 72.
+Can't call method "wx" on an undefined value at t/97_debug_debugger.t line 27.
+# Looks like you planned 54 tests but ran 4.
+# Looks like you failed 1 test of 4 run.
+# Looks like your test exited with 255 just after 4.
+t/97_debug_debugger.t ...... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 51/54 subtests 
+
+#   Failed test 'Padre->new() died'
+#   at t/98_debug_breakpoints.t line 25.
+#     Error was:  Invalid version format (non-numeric data) at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+# BEGIN failed--compilation aborted at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+# Compilation failed in require at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menubar.pm line 72.
+Can't call method "wx" on an undefined value at t/98_debug_breakpoints.t line 26.
+# Looks like you planned 22 tests but ran 3.
+# Looks like you failed 1 test of 3 run.
+# Looks like your test exited with 255 just after 3.
+t/98_debug_breakpoints.t ... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 20/22 subtests 
+
+#   Failed test 'Padre->new() died'
+#   at t/99_debug_debugoutput.t line 25.
+#     Error was:  Invalid version format (non-numeric data) at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+# BEGIN failed--compilation aborted at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menu/Debug.pm line 5.
+# Compilation failed in require at C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\Padre-0.94\blib\lib/Padre/Wx/Menubar.pm line 72.
+Can't call method "wx" on an undefined value at t/99_debug_debugoutput.t line 26.
+# Looks like you planned 14 tests but ran 3.
+# Looks like you failed 1 test of 3 run.
+# Looks like your test exited with 255 just after 3.
+t/99_debug_debugoutput.t ... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 12/14 subtests 
+
+Test Summary Report
+-------------------
+t/01_compile.t           (Wstat: 256 Tests: 37 Failed: 1)
+  Failed test:  37
+  Non-zero exit status: 1
+t/02_new.t               (Wstat: 65280 Tests: 1 Failed: 0)
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 63 tests but ran 1.
+t/03_db.t                (Wstat: 65280 Tests: 4 Failed: 0)
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 6 tests but ran 4.
+t/04_config.t            (Wstat: 256 Tests: 342 Failed: 1)
+  Failed test:  19
+  Non-zero exit status: 1
+t/05_project.t           (Wstat: 65280 Tests: 2 Failed: 0)
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 16 tests but ran 2.
+t/10_delta.t             (Wstat: 65280 Tests: 7 Failed: 0)
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 14 tests but ran 7.
+t/15_locale.t            (Wstat: 65280 Tests: 1 Failed: 0)
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 7 tests but ran 1.
+t/31_editor.t            (Wstat: 65280 Tests: 1 Failed: 0)
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 28 tests but ran 1.
+t/50_browser.t           (Wstat: 6400 Tests: 9 Failed: 1)
+  Failed test:  8
+  Non-zero exit status: 25
+  Parse errors: Bad plan.  You planned 14 tests but ran 9.
+t/76_preferences.t       (Wstat: 65280 Tests: 3 Failed: 1)
+  Failed test:  2
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 10 tests but ran 3.
+t/82_plugin_manager.t    (Wstat: 65280 Tests: 1 Failed: 0)
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 29 tests but ran 1.
+t/93_padre_filename_win.t (Wstat: 0 Tests: 7 Failed: 0)
+  TODO passed:   1-7
+t/95_edit_patch.t        (Wstat: 65280 Tests: 3 Failed: 1)
+  Failed test:  2
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 27 tests but ran 3.
+t/96_help_about.t        (Wstat: 65280 Tests: 3 Failed: 1)
+  Failed test:  2
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 9 tests but ran 3.
+t/97_debug_debugger.t    (Wstat: 65280 Tests: 4 Failed: 1)
+  Failed test:  3
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 54 tests but ran 4.
+t/98_debug_breakpoints.t (Wstat: 65280 Tests: 3 Failed: 1)
+  Failed test:  2
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 22 tests but ran 3.
+t/99_debug_debugoutput.t (Wstat: 65280 Tests: 3 Failed: 1)
+  Failed test:  2
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 14 tests but ran 3.
+Files=49, Tests=1118, 138 wallclock secs ( 0.59 usr +  0.14 sys =  0.73 CPU)
+Result: FAIL
+Failed 16/49 test programs. 9/1118 subtests failed.
+dmake.exe:  Error code 255, while making 'test_dynamic'
+-> FAIL Installing C:\Users\TOSH\Documents\Padre-0.94.tar.gz failed. See C:\Users\TOSH\DOCUME~1\GitHub\DWIMPE~1\STRAWB~1.1-3\data\.cpanm\work\1445651947.2512\build.log for details. Retry with --force to force install it.
+1 distribution installed
