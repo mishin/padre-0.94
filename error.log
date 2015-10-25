@@ -1,0 +1,24 @@
+not ok 1 - use Padre::Config;
+#   Failed test 'use Padre::Config;'
+#   at -e line 1.
+#     Tried to use 'Padre::Config'.
+#     Error:  Failed to find share dir for dist 'Padre' at C:/Users/TOSH/Documents/GitHub/dwimperl-windows/strawberry-perl-5.20.0.1-32bit-portable/perl/vendor/lib/File/ShareDir.pm line 173.
+# 	File::ShareDir::dist_dir("Padre") called at lib/Padre/Util.pm line 378
+# 	Padre::Util::share() called at lib/Padre/Util.pm line 383
+# 	Padre::Util::sharedir("themes") called at lib/Padre/Config.pm line 344
+# 	Padre::Config::themes("Padre::Config") called at lib/Padre/Config.pm line 1210
+# 	require Padre/Config.pm called at -e line 1
+# 	main::BEGIN() called at lib/Padre/Config.pm line 0
+# 	eval {...} called at lib/Padre/Config.pm line 0
+# 	eval 'package main;
+# 
+# #line 1 -e
+# use Padre::Config @{$args[0]};
+# 1;
+# ' called at C:/Users/TOSH/Documents/GitHub/dwimperl-windows/strawberry-perl-5.20.0.1-32bit-portable/perl/site/lib/Test/More.pm line 993
+# 	Test::More::_eval("package main;\x{a}\x{a}#line 1 -e\x{a}use Padre::Config \@{\$args[0]};\x{a}1;\x{a}", ARRAY(0x28a974c)) called at C:/Users/TOSH/Documents/GitHub/dwimperl-windows/strawberry-perl-5.20.0.1-32bit-portable/perl/site/lib/Test/More.pm line 968
+# 	Test::More::use_ok("Padre::Config") called at -e line 1
+# Compilation failed in require at -e line 1.
+# BEGIN failed--compilation aborted at -e line 1.
+1..1
+# Looks like you failed 1 test of 1.
